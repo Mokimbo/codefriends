@@ -1,6 +1,6 @@
 // make questionaire for stats
 // make paths 
-    // add descriptors for differing stats
+// add descriptors for differing stats
 // make choices for ending or continuing to remaining paths
 
 
@@ -211,11 +211,11 @@ You take it and get a good look at it. It appears to list where the head of each
 "Talk to one of them and they will get you sorted." he says before turning back around on his chair.
 With that, you leave the office before looking back at the map. You can either:
 
-a. Head to the dockmaster to help unload the ships
+a. Head to the dockmaster to help unload the ships.
 
-b. Head over to the warehouse manager to help deliver goods around the town
+b. Head over to the warehouse manager to help deliver goods around the town. (work in progress)
 
-c. Head back over to the receptionist to help out around the office.
+c. Head back over to the receptionist to help out around the office. (work in progress)
 `)
 
 const ra1 = prompt (`You decide to: `)
@@ -266,13 +266,27 @@ will help out.
 const cart = prompt('would you like to check out the carts?(y/n)')
     if (cart === y){
         console.log(`
-
+work in progress
         `)
     }//ra1=a-y
-
+    else {
+        console.log(`
+work in progress
+`)
+    }
     }//ra1=a
+    if (ra1 = 'b'){
+        console.log(`
+work in progress
+`)
 
+    }//ra1=b
+    if (ra1 = 'c'){
+        console.log(`
+work in progress
+`)
 
+    }//ra1=c
 
     }//ra
 
